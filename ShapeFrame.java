@@ -17,7 +17,11 @@ public class ShapeFrame extends JFrame {
     public static void main(String[] args){
         
         Shape shape = new RectangularShape();
-        new  ShapeFrame(shape);
+        Shape circle= new CircularShape();
+        Shape triangle= new TriangularShape();
+        new ShapeFrame(shape);
+        new ShapeFrame(circle);
+        new ShapeFrame(triangle);
     }
 }
 
